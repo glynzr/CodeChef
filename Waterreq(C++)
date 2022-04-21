@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+   int T,i,N;
+   cin>>T;
+   i=0;
+   while (i<T){
+      cin>>N;
+      cout<<N*2<<endl;
+      i++;
+   }
+   return 0;
+}
