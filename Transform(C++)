@@ -1,0 +1,41 @@
+//1st method
+#include <iostream>
+using namespace std;
+int main(){
+   int T,X,i;
+   cin>>T;
+   i=0;
+   while (i<T){
+      cin>>X;
+      int a=X%3;
+      switch (a){
+         case 1:
+            cout<<"HUGE"<<endl;
+            break;
+         case 2:
+            cout<<"SMALL"<<endl;
+            break;
+         case 0:
+            cout<<"NORMAL"<<endl;
+            break;
+      }
+      i++;
+   }
+}
+//2nd method
+#include <iostream>
+using namespace std;
+int main(){
+   int T,X,i;
+   cin>>T;
+   for (int i=0;i<T;i++){
+      cin>>X;
+      if (X%3==0){
+         cout<<"NORMAL"<<endl;
+      }else if (X%3==1){
+         cout<<"HUGE"<<endl;
+      }else {
+         cout<<"SMALL"<<endl;
+      }
+   }
+}
