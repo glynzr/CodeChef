@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int T,N,K,i;
+    i=0;
+    cin>>T;
+    while(i<T){
+        cin>>N>>K;
+        if (K==1){
+            if (N%4==0){
+                cout<<"On"<<endl;
+            }else{
+                cout<<"Ambiguous"<<endl;
+            }
+        }else{
+            if (N%4==0){
+                cout<<"Off"<<endl;
+            }else{
+                cout<<"On"<<endl;
+            }
+        }
+        i++;
+    }
+}
