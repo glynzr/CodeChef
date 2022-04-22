@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+   int T,X,Y,i,t;
+   i=0;
+   cin>> T;
+   while (i<T){
+      cin>>X>>Y;
+      cout<<abs(Y-X)<<endl;
+      i++;
+   }
+
+}
