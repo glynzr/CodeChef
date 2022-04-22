@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+   int T,X,i;
+   cin>>T;
+   i=0;
+   while (i<T){
+      cin>>X;
+      if (X>=1 and X<=4){
+         cout<<"Yes"<<endl;
+      }else{
+         cout<<"No"<<endl;
+      }
+      i++;
+   }
+}
