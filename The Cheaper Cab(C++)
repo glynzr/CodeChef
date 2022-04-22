@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int T,X,Y,i;
+    i=0;
+    cin>>T;
+    while (i<T){
+        cin>>X>>Y;
+        if (X<Y){
+            cout<<"First"<<endl;
+        }else if (X>Y){
+            cout<<"Second"<<endl;
+        }else{
+            cout<<"Any"<<endl;
+        }
+        i++;
+    }
+}
