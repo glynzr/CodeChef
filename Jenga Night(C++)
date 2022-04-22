@@ -1,0 +1,33 @@
+//1st method
+#include <iostream>
+using namespace std;
+int main(){
+   int T,i,N,X;
+   cin>>T;
+   i=0;
+   while (i<T){
+      cin>>N>>X;
+      if (X>=N and X%N==0){
+         cout<<"Yes"<<endl;
+      }else{
+         cout<<"No"<<endl;
+      }
+      i++;
+   }
+}
+//2nd method
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+   int T,i,N,X;
+   cin>>T;
+   i=0;
+   while (i<T){
+      cin>>N>>X;
+      string a = ( X>=N and X%N==0) ? "Yes": "No";
+      cout<< a<< endl;
+      
+      i++;
+   }
+}
