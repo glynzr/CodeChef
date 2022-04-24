@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int i,T,X,Y;
+    i=0;
+    cin>>T;
+    while (i<T){
+        cin>> X >> Y;
+        cout<< int (X*Y)/100 <<endl;
+        i++;
+    }
+}
