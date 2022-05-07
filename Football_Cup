@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int T,i;
+    cin>>T;
+    i=0;
+    while (i<T){
+        int X,Y;
+        cin>>X >>Y;
+        if (X==Y and X>=1){
+            cout<< "Yes"<< endl;
+        }else{
+            cout<<"No"<< endl;
+        }
+        i+=1;
+
+    }
+}
