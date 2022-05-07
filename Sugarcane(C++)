@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int T,i=0;
+    cin>>T;
+    while (i<T){
+        int N;
+        cin>> N;
+        cout<< N*15<<endl;
+        i++;
+    }
+}
