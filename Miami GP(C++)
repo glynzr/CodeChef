@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int T,i=0,X,Y;
+    cin>> T;
+    while (i<T){
+        cin>> X >>Y;
+        if (X*1.07>=Y){
+            cout<< "Yes"<< endl;
+        }else{
+            cout<<"No"<< endl;
+        }
+        i++;
+    }
+}
